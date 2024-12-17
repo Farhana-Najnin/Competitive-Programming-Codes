@@ -4,7 +4,7 @@ int main() {
 int t;
 int Min=1000000;
 int Max=-1000000;
-int Sum=0;
+long long Sum=0;
 scanf("%d",&t);
 for(int i=0;i<t;i++){
     int x;
@@ -13,5 +13,5 @@ for(int i=0;i<t;i++){
     if(x>Max) Max=x;
     Sum+=x;
 }
-printf("%d %d %d\n",Min,Max,Sum);
+printf("%d %d %lld\n",Min,Max,Sum);
 }
